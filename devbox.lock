@@ -1,0 +1,355 @@
+{
+  "lockfile_version": "1",
+  "packages": {
+    "awscli2@2.22.13": {
+      "last_modified": "2025-01-02T12:43:26Z",
+      "resolved": "github:NixOS/nixpkgs/d6973081434f88088e5321f83ebafe9a1167c367#awscli2",
+      "source": "devbox-search",
+      "version": "2.22.13",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3pnbplix38dv12afpf2fi1623bp2i3np-awscli2-2.22.13",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/pk6f5pl54k58yymv5cf3xqykip35l3z8-awscli2-2.22.13-dist"
+            }
+          ],
+          "store_path": "/nix/store/3pnbplix38dv12afpf2fi1623bp2i3np-awscli2-2.22.13"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/rg03ycmb1p2kfbibhbbqdr2my919s9kn-awscli2-2.22.13",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/76g4b6mq7i22gbck35px1kp05xbpymvg-awscli2-2.22.13-dist"
+            }
+          ],
+          "store_path": "/nix/store/rg03ycmb1p2kfbibhbbqdr2my919s9kn-awscli2-2.22.13"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/3pdgm2ny8v3703l21929ymb2fb88ypdj-awscli2-2.22.13",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/883d3krdcyxsvnmbmjgh76azmxdzmjd2-awscli2-2.22.13-dist"
+            }
+          ],
+          "store_path": "/nix/store/3pdgm2ny8v3703l21929ymb2fb88ypdj-awscli2-2.22.13"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/d7rzrxwxwf4mip6c39hz73g37brdi7g9-awscli2-2.22.13",
+              "default": true
+            },
+            {
+              "name": "dist",
+              "path": "/nix/store/7qmfgpalc9jh6z9ywichdiakjhp2zpkx-awscli2-2.22.13-dist"
+            }
+          ],
+          "store_path": "/nix/store/d7rzrxwxwf4mip6c39hz73g37brdi7g9-awscli2-2.22.13"
+        }
+      }
+    },
+    "nodejs@23.2.0": {
+      "last_modified": "2024-12-23T21:10:33Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/de1864217bfa9b5845f465e771e0ecb48b30e02d#nodejs_23",
+      "source": "devbox-search",
+      "version": "23.2.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h01fs5dy2aykhxfd2nvq2qzn5v88bmj2-nodejs-23.2.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/rpafhg74x82viy5d5ri5llikkd0nv0jy-nodejs-23.2.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/h01fs5dy2aykhxfd2nvq2qzn5v88bmj2-nodejs-23.2.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/24jjyqsk2bf45a9vc6p24l55v058n0fb-nodejs-23.2.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/lifan3dprdmnkhs6fk537zhs92baqm9x-nodejs-23.2.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/24jjyqsk2bf45a9vc6p24l55v058n0fb-nodejs-23.2.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5ckvci4i16whdx5n1vxj14as01kwp1iz-nodejs-23.2.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/13sfp639j9d69n1rjc0a9z3y7xxfwm23-nodejs-23.2.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/5ckvci4i16whdx5n1vxj14as01kwp1iz-nodejs-23.2.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/cgkpjpl1hspg30dlmv4hhvlhbvik1bn1-nodejs-23.2.0",
+              "default": true
+            },
+            {
+              "name": "libv8",
+              "path": "/nix/store/3mma5xpnfggra9as4l9ibvihx70qm7wc-nodejs-23.2.0-libv8"
+            }
+          ],
+          "store_path": "/nix/store/cgkpjpl1hspg30dlmv4hhvlhbvik1bn1-nodejs-23.2.0"
+        }
+      }
+    },
+    "opentofu@1.9.0": {
+      "last_modified": "2025-01-11T15:21:40Z",
+      "resolved": "github:NixOS/nixpkgs/590cc22eefd616c8f90608870d28afe25d37e8b8#opentofu",
+      "source": "devbox-search",
+      "version": "1.9.0",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/iasnib9ks39k0l4bjbjhja2g3x3chsg1-opentofu-1.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/iasnib9ks39k0l4bjbjhja2g3x3chsg1-opentofu-1.9.0"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/mc7k3zigi2w2a9dgmv1jmmd433jz2zxb-opentofu-1.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/mc7k3zigi2w2a9dgmv1jmmd433jz2zxb-opentofu-1.9.0"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/k4mbw1avvacafyngxkbdisifapk2gwm4-opentofu-1.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/k4mbw1avvacafyngxkbdisifapk2gwm4-opentofu-1.9.0"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/s9i73w4bnhqpnxia9fx5q29g46jf1qsp-opentofu-1.9.0",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/s9i73w4bnhqpnxia9fx5q29g46jf1qsp-opentofu-1.9.0"
+        }
+      }
+    },
+    "postgresql@16.4": {
+      "last_modified": "2024-12-01T14:53:25Z",
+      "plugin_version": "0.0.2",
+      "resolved": "github:NixOS/nixpkgs/31d66ae40417bb13765b0ad75dd200400e98de84#postgresql",
+      "source": "devbox-search",
+      "version": "16.4",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/j6n9b877yhrnkp9z9p1gllxpnfvdrbrb-postgresql-16.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/465icqyw6m38jxpx5yr1ri26ki0f96sz-postgresql-16.4-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/jvw9nsblsbh9m4n551sq7qnw82hhsv08-postgresql-16.4-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/fk1x8k1qsiaasp73qnzyrzw4ylaf1xy6-postgresql-16.4-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/l9w6d22hrcrxkv005g2gbzhvk64vp4rm-postgresql-16.4-lib"
+            }
+          ],
+          "store_path": "/nix/store/j6n9b877yhrnkp9z9p1gllxpnfvdrbrb-postgresql-16.4"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/2ywn472iqfdiyw5w4frm63rn3nyrkgn1-postgresql-16.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/650fqsb195p9x00jgqgzkisjwddbvgfd-postgresql-16.4-man",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/wm34pd2y04mjgvhanqw4ymmhds56l9da-postgresql-16.4-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/ai2ckvi44jdh9i5078gj5brdwsxk4ydm-postgresql-16.4-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/qys6z2y4iwr0f6ahpq9gcv9hb551w479-postgresql-16.4-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/pii1vyxbzggi7aqy7xglav8p52c0qfp2-postgresql-16.4-lib"
+            }
+          ],
+          "store_path": "/nix/store/2ywn472iqfdiyw5w4frm63rn3nyrkgn1-postgresql-16.4"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/5k1p2jjnsdcsvk8zpsqxlzhajh1x9ghq-postgresql-16.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/p8b24icm7xiwlky1dggqcinn1ah92agl-postgresql-16.4-man",
+              "default": true
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/cvl9wdw387jk02bbhm1qvidzl18hayyr-postgresql-16.4-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/ysmwxhh3s2l1k2jkzxq0bv6vdzlgr14j-postgresql-16.4-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/4va0gp1c718dk1zyqs0il2gn7a81spr0-postgresql-16.4-lib"
+            }
+          ],
+          "store_path": "/nix/store/5k1p2jjnsdcsvk8zpsqxlzhajh1x9ghq-postgresql-16.4"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ypx0whdqvwbql73nija0zrm4z3rgcm9l-postgresql-16.4",
+              "default": true
+            },
+            {
+              "name": "man",
+              "path": "/nix/store/7x75jfmpc7x36863cf6kr61ikcz787ki-postgresql-16.4-man",
+              "default": true
+            },
+            {
+              "name": "debug",
+              "path": "/nix/store/pxhd0wq2sbafamjmcp7f890qza76gwav-postgresql-16.4-debug"
+            },
+            {
+              "name": "dev",
+              "path": "/nix/store/20i6jma3fbm4sw060hdnrs311fw4aczj-postgresql-16.4-dev"
+            },
+            {
+              "name": "doc",
+              "path": "/nix/store/4c7h8sg2i0jim6hzmzhjw5nn0zmx1xvd-postgresql-16.4-doc"
+            },
+            {
+              "name": "lib",
+              "path": "/nix/store/xd8ks7bs2p7gjgk8h98bfg8801swl9m0-postgresql-16.4-lib"
+            }
+          ],
+          "store_path": "/nix/store/ypx0whdqvwbql73nija0zrm4z3rgcm9l-postgresql-16.4"
+        }
+      }
+    },
+    "yarn@1.22.22": {
+      "last_modified": "2024-12-23T21:10:33Z",
+      "resolved": "github:NixOS/nixpkgs/de1864217bfa9b5845f465e771e0ecb48b30e02d#yarn",
+      "source": "devbox-search",
+      "version": "1.22.22",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jcbyc2k0vkkm862r7f9nwxaa69khfr3h-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jcbyc2k0vkkm862r7f9nwxaa69khfr3h-yarn-1.22.22"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/sxxpynsiv8mhq1f0gi1d1rzcj2v0af5w-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/sxxpynsiv8mhq1f0gi1d1rzcj2v0af5w-yarn-1.22.22"
+        },
+        "x86_64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/gw4vlw2qhk94mjwdypqxdzczpml7x1w9-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/gw4vlw2qhk94mjwdypqxdzczpml7x1w9-yarn-1.22.22"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/h705p6lmismdn6ay2pn04rvcb2p6vl6i-yarn-1.22.22",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/h705p6lmismdn6ay2pn04rvcb2p6vl6i-yarn-1.22.22"
+        }
+      }
+    }
+  }
+}
