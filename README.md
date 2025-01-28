@@ -1,3 +1,16 @@
+# Bastion
+This is a demo repository for my [blog post](http://felipetrindade.com/bastion).
+
+The goal of this repository is to deploy a VPC, EC2 bastion host, RDS (Postgres) and needed IAM roles to show-case how to use AWS Systems Manager (Session Manager tool) to port-forward the connection to a database, in other words, no need to deploy a VPN to access a private resource (database) locally.
+
+I will use OpenTofu/Terraform and AWS CDK (with Typescript) to run the demo.
+
+## Before deploying...
+The only dependency needed to start using this project is [Devbox](https://www.jetify.com/devbox) and [Nix](https://nixos.org/download/) (if you install Devbox first it will install Nix for you if you don't have it), all the other tools will be installed by it. Make sure your AWS region was already CDK bootstrapped. Installing the needed tools is as simple as running:
+
+```sh
+devbox shell
+```
 
 
 ## Deploying Bastion host with OpenTofu
